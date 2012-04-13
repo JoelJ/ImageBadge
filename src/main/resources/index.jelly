@@ -1,0 +1,4 @@
+<div>
+	Adds a badge linking to an image in the artifacts of the
+	build if one exists with the same name of the test failure.
+</div>

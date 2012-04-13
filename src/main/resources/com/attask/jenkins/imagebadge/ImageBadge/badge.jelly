@@ -1,0 +1,5 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <a href="${it.imageUrl}" target="_blank">
+	  <img src="${rootURL}/plugin/ImageBadge/image.png"/>
+  </a>
+</j:jelly>

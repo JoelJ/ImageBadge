@@ -1,0 +1,11 @@
+<j:jelly xmlns:j="jelly:core">
+	<style>
+		img.failure {
+			cursor: url(${rootURL}/plugin/ImageBadge/zoom.png), auto;
+			max-height: 190px;
+		}
+	</style>
+	<a href="${it.imageUrl}" target="_blank">
+		<img class="failure" src="${it.imageUrl}"/>
+	</a>
+</j:jelly>
